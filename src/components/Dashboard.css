@@ -1,0 +1,80 @@
+/* General container styling */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 20%;
+    background-color: #34495e;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+/* Navigation links styling */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.nav-links li {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    display: block;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #1abc9c;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #16a085;
+}
+
+.nav-links a:active, .nav-links a:focus {
+    background-color: #148f77;
+}
+
+/* Adjusting the styling for the last item to make it stand out more */
+.nav-links li:last-child {
+    margin-top: auto;
+}
+
+/* Main content area styling */
+.main-content {
+    width: 80%;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+/* Dashboard title styling */
+.dashboard-title {
+    width: 100%;
+    text-align: left;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #34495e;
+    padding-bottom: 10px;
+}
